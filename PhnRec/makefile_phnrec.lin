@@ -2,7 +2,7 @@
 
 #BLASLIB  = libmkl_p4.so libguide.so  # if the files are in curr. dir. "export LD_LIBRARY_PATH=."
 #BLASLIB  = -l cblas -l atlas 
-BLASLIB = -lopenblas
+BLASLIB = -lopenblas -lcblas
 
 SOUNDLIB = -l pthread                # pthread is used in the LWFSource class
 
